@@ -1,0 +1,27 @@
+# Node
+node_modules/
+dist/
+build/
+.npm/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.env
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+# healthcare_cleaned.csv # Keeping this un-ignored as user might want data in repo, but usually data is ignored. 
+# Given the user instruction "add the data ... and make the dashboard", and it's a demo/portfolio project, I'll update .gitignore to NOT ignore the csv if it's small, but here it is ~200kb so it's fine.
